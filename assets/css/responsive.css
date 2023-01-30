@@ -1,0 +1,48 @@
+/* topbar */
+@media (max-width: 992px) {
+    .nav .subnav {
+        display: none;
+    }
+}
+
+
+
+
+
+/* mobile */
+@media (min-width: 577px) {
+    .col-half {
+        width: 50%;
+    }
+    .col-third {
+        width: calc(100%/3);
+        margin: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .container {
+        width: 100%;
+    }
+    .center {
+        justify-content: center;
+    }
+
+    .text-intro {
+        text-align: center;
+    }
+}
+/* tablet  */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
